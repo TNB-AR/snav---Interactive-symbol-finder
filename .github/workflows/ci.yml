@@ -17,8 +17,8 @@ concurrency:
 jobs:
   checks:
     runs-on:
-      group: m7b-squid
-      labels: m7b-squid
+      group: m7b
+      labels: m7b-linux-arm64
     timeout-minutes: 15
     steps:
       - name: Checkout
